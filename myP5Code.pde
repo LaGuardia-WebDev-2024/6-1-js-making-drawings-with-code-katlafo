@@ -11,9 +11,19 @@ void draw(){
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  ellipse(50,50,100,80);
+  ellipse(200,100,100,80);
+  ellipse(200,190,130,100);
+  ellipse(200,315,170,150);
   
+  // draw a triangle with vertices at
+triangle(195, 107, 222, 113, 197, 123);
 
+// draw a point of size 3
+strokeWeight(8);
+point(181, 90);
+// draw a point of size 3
+strokeWeight(8);
+point(220, 90);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
